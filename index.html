@@ -2,6 +2,74 @@
 <html>
   <head>
     <style>
+      *{
+        background-color:rgb(34,139,34)
+      }
+      
+      #home{
+         position: relative;
+         background-color:rgb(210,180,140);
+         color:white;
+         font-family:cursive;
+         width: 100px;
+         height:100px;
+         bottom: 90px;
+      }
+      
+      #first{
+         position: relative;
+         background-color:rgb(210,180,140);
+         color:white;
+         font-family:cursive;
+         width: 100px;
+         height:100px;
+         bottom: 190px;
+         left: 250px;
+      }
+      
+      #second{
+         position: relative;
+         background-color:rgb(210,180,140);
+         color:white;
+         font-family:cursive;
+         width: 100px;
+         height:100px;
+         bottom: 40px;
+         left: 250px;
+      }
+
+      #third{
+         position: relative;
+         background-color:rgb(210,180,140);
+         color:white;
+         font-family:cursive;
+         width: 100px;
+         height: 100px;
+         bottom: 140px;
+      }
+      
+      
+   #marcus {
+        width: 80px;
+        height: 80px;
+        background-color: black;
+        animation-name: pp;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        position: relative;
+        font-family: cursive;
+        color: white;
+        z-index: 5;
+      }
+      
+      @keyframes pp{
+        0%{left: 10px; bottom:10px; top:0px;}
+        25%{left:260px; bottom:10px; top:0px;}
+        50%{left:260px; top:250px; bottom:0px;}
+        75%{left:10px; top:250px; bottom:0px;}
+        100%{left:10px; bottom:10px; top:0px;}
+      }
       .seed{
         color: rgb(255,0,0)
       }
@@ -9,5 +77,26 @@
       
     <h1 class = "seed"> martin likes seeds </h1> 
     <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfk2hl5WpoYwlVF5MAD9Wv37KqwG3sK3FJbUexZk8surcg8o4JSiQsvL3PWomWIbKjMJK4G9LOMlJFhnE3UA:https://pbs.twimg.com/media/DT79mo4VQAA3Gms.jpg">
-  </head>
+  
+    
+      
+      
+    </style> 
+      <div id = "marcus">
+        Marcus
+      </div>
+        <div id = "home">
+          Home
+    </div>
+         <div id = "first">
+           First
+    </div>
+         <div id = "second">
+           Second
+    </div>
+         <div id = "third">
+           Third
+    </div>
+ 
+      </head>
 </html>
